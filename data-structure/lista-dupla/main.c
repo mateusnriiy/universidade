@@ -18,7 +18,8 @@ int main()
         printf("|3. Buscar pela matricula o aluno na lista  |\n");
         printf("|4. Buscar pelo nome do aluno na lista      |\n");
         printf("|5. Tamanho da lista de alunos              |\n");
-        printf("|6. Sair                                    |\n");
+        printf("|5. Exibir lista                            |\n");
+        printf("|7. Sair                                    |\n");
         printf("+-------------------------------------------+\n");
 
         printf("Escolha uma opção: ");
@@ -95,6 +96,12 @@ int main()
         }
 
         case 6:
+        {
+            exibir(lista);
+            break;
+        }
+
+        case 7:
         {
 
             printf("Saindo...\n");
