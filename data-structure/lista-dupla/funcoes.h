@@ -14,5 +14,6 @@ No* remover(No *lista, int mat);
 No* buscarMatricula(No *lista, int mat);
 No* buscarNome(No *lista, const char *nome); 
 int tamanho(No *lista);
+void exibir(No *lista);
 
 #endif

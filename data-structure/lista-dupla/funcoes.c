@@ -146,3 +146,12 @@ int tamanho(No *lista) {
     }
     return contador;
 }
+
+void exibir(No *lista) {
+    printf("Lista: ");
+    while (lista != NULL) {
+        printf("[%d, %s] <-> ", lista->matricula, lista->nome);
+        lista = lista->proximo;
+    }
+    printf("NULL\n");
+}
