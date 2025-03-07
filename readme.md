@@ -19,7 +19,7 @@ Para clonar este repositório inteiro, siga os passos abaixo:
 
    Isso criará uma cópia local de todo o repositório na sua máquina.
 
-## Alternativa: Usando `svn` para Clonar uma Pasta Específica
+## Clonar uma Pasta Específica
 
 Se você deseja apenas baixar uma pasta específica sem clonar o repositório inteiro, você pode usar o `svn`:
 
